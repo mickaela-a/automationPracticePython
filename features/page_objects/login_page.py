@@ -1,0 +1,8 @@
+LOGIN_URL = 'https://www.demoblaze.com/index.html'
+LOGIN_BOTON_MENU = '#login2'
+USERNAME_FIELD = '#loginusername'
+PASSWORD_FIELD = '#loginpassword'
+VALID_USERNAME = 'Micka'
+VALID_PASSWORD = 'Micka'
+LOGIN_BOTON = '#logInModal > div > div > div.modal-footer > button.btn.btn-primary'
+LOGOUT_BOTON = '#logout2'
