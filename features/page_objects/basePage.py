@@ -11,3 +11,7 @@ def send_keys_by_css_selector(self, css_selector, text):
 
 def element_displayed(self, css_selector):
     return self.driver.find_element(By.CSS_SELECTOR, css_selector).is_displayed()
+
+
+def get_element_text(self, css_selector):
+    return self.driver.find_element(By.CSS_SELECTOR, css_selector).text()
