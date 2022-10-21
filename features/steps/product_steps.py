@@ -19,4 +19,3 @@ def see_the_product_details(context):
     assert product_detail_text == 'The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.'
     add_to_cart_boton_displayed = element_displayed(context, BOTON_ADD_TO_CART)
     assert add_to_cart_boton_displayed == True
-    
