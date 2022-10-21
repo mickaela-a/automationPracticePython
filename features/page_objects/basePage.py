@@ -14,4 +14,8 @@ def element_displayed(self, css_selector):
 
 
 def get_element_text(self, css_selector):
-    return self.driver.find_element(By.CSS_SELECTOR, css_selector).text()
+    return self.driver.find_element(By.CSS_SELECTOR, css_selector).text
+
+
+def click_on_a_product(self, css_selector):
+    self.driver.find_element(By.CSS_SELECTOR, css_selector).click()
