@@ -7,4 +7,4 @@ Feature: see product detail
     Scenario: see product detail
         Given the common user is on demoblaze page
         When the user clicks on a product
-        Then product details shown
+        Then product details are displayed
